@@ -7,4 +7,4 @@ Use of merge:
 ==> Commonly used to combine a other branch into the main branch after development.
 
 Example:
-==> If you created a branch called feature-login and completed the login feature, you can merge it into the main branch so that the main project includes the new feature.
+==> If we create a branch called feature-login and completed the login feature, we can merge it into the main branch so that the main project includes the new feature.
