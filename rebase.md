@@ -11,3 +11,21 @@ Example:
 ==>Instead of merging,we can run:
 git checkout feature
 git rebase main
+
+Problem scenario: Your branch is behind main, but you want a clean history before merging.
+
+steps to follow:
+git checkout -b rebase
+git add rebase.md
+git commit -m "Add rebase work"
+
+# Simulate main branch getting updated:
+git checkout main
+git add main_update.txt(file.name)
+git commit -m "Update main branch"
+git push origin main
+
+# Rebase your branch onto updated main
+git checkout rebase
+git rebase main
+git push origin rebase --force
