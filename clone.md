@@ -10,3 +10,9 @@ Example:
 
 Steps:
 Copy the repo URL and we will give some commands in terminal to clone a project "git clone URL" to change directory "cd foldername" and run "git remote -v" to see the origin. To verify we can check through "git status" command.
+
+Problem scenario: You’re joining a new team. The project is on GitHub, but your laptop is empty. You need a copy to work on it.
+
+steps to follow:
+git clone https:URL
+cd git-concepts-demo
